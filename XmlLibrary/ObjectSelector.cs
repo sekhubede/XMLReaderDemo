@@ -11,5 +11,8 @@ namespace XmlLibrary
     {
         public List<PropertySelector> PropertySelectors { get; set; } 
             = new List<PropertySelector>();
+
+        public int ObjectTypeId { get; set; }
+        public int ClassId { get; set; }
     }
 }
